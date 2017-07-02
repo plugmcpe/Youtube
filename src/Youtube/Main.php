@@ -17,7 +17,7 @@ public function onEnable(){
      switch ($cmd->getName()){
       case 'Youtube':
        $player = $sender->getPlayer();
-        $sender->setGamemode(1);
+        $player->setGamemode(1);
         break;
         }
        }
